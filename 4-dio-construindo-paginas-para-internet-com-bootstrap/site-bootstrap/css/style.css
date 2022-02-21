@@ -1,0 +1,40 @@
+h1 {
+  margin-bottom: 20px;
+}
+
+h3,
+p {
+  margin-top: 20px;
+}
+
+a {
+  color: white !important;
+}
+
+.bg-light {
+  background-color: #0040ff !important;
+}
+
+.quem-somos {
+  background-color: #58acfa;
+}
+
+.padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #0040ff;
+  color: white;
+}
+
+.img-fit {
+  object-fit: cover;
+}
+
+.servicos {
+  background-color: #58acfa;
+}

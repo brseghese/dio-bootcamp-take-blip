@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  header .logo {
+    padding: 10px 10px;
+  }
+  .botao:nth-child(2) {
+    margin-top: 10px;
+  }
+}

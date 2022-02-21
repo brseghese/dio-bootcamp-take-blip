@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #be81f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #380b61;
+}
+
+.tarefa {
+  border-radius: 5px;
+  border: 1px solid #642efe;
+  font-size: 16px;
+  width: 400px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #380b61;
+}
+
+.tarefa:focus {
+  outline: 1px solid #380b61;
+}
+
+.botao {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #380b61;
+  color: #bca9f5;
+  background-color: #380b61;
+  cursor: pointer;
+}
+
+.botao:hover {
+  color: #380b61;
+  background-color: #bca9f5;
+}
+
+.container-tarefa {
+  max-width: 400px;
+  margin: 0 auto;
+  /* border: 1px solid #380b61; */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.borda {
+  border: 1px solid #380b61;
+  padding-bottom: 15px;
+}
+
+.novaTarefa {
+  margin-top: 10px;
+}
+
+.novaTarefa:checked + label {
+  text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+  .tarefa {
+    width: 300px;
+  }
+  .container-tarefa {
+    width: 300px;
+  }
+}
