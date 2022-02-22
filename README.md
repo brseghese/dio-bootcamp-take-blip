@@ -1,4 +1,4 @@
-# Cursos - Digital Innovation One - Dio 💻
+# Bootcamp Take Blip - Digital Innovation One - Dio 💻
 
 - Lógica de Programção Essencial
 - Introdução ao Git e GitHub
