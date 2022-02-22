@@ -6,3 +6,5 @@
 - Construindo Páginas para a Internet com Bootstrap
 - Recriando a Interface do Netflix
 - Introdução ao JavaScript
+- Sintaxe básica em JavaScript
+- Sintaxe e Operadores - Javascript
