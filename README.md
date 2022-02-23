@@ -7,4 +7,5 @@
 - Recriando a Interface do Netflix
 - Introdução ao JavaScript
 - Sintaxe básica em JavaScript
-- Sintaxe e Operadores - Javascript
+- Sintaxe e Operadores - JavaScript
+- Variáveis e Tipos - JavaScript
