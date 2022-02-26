@@ -11,3 +11,4 @@
 9. Variáveis e Tipos - JavaScript
 10. Funções - JavaScript
 11. Coleções - JavaScript
+12. Debugging e Error Handling - JavaScript
