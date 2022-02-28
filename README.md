@@ -13,3 +13,4 @@
 11. Coleções - JavaScript
 12. Debugging e Error Handling - JavaScript
 13. JavaScript Assíncrono
+14. Orientação a Objetos - JavaScript
