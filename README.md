@@ -14,3 +14,4 @@
 12. Debugging e Error Handling - JavaScript
 13. JavaScript Assíncrono
 14. Orientação a Objetos - JavaScript
+15. Map, Filter e Reduce - JavaScript
