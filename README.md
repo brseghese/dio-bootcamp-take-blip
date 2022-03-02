@@ -15,3 +15,4 @@
 13. JavaScript Assíncrono
 14. Orientação a Objetos - JavaScript
 15. Map, Filter e Reduce - JavaScript
+16. Manipulando a D.O.M com JavaScript
