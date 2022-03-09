@@ -1,0 +1,233 @@
+@font-face {
+  font-family: Titulo;
+  src: url("../assets/fontes/ANODETONOONE.TTF");
+}
+
+h1 {
+  font-family: Titulo;
+  font-size: 40px;
+  color: forestgreen;
+}
+
+body {
+  /* background-image: url("../assets/imgs/fundo.jpg"); */
+  background: no-repeat fixed content-box
+    linear-gradient(to top, #093028, #2c99cc);
+}
+
+#container {
+  width: 1024px;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+#fundoGame {
+  width: 1024px;
+  height: 630px;
+  background-image: url("../assets/imgs/fundo_game2.jpg");
+  border-color: #bdc3c7;
+  border-style: solid;
+}
+
+#jogador {
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  left: 40px;
+  top: 250px;
+  background-image: url("../assets/imgs/helicoptero2.png");
+}
+
+#inimigo1 {
+  width: 165px;
+  height: 120px;
+  position: absolute;
+  left: 860px;
+  top: 180px;
+  background-image: url("../assets/imgs/inimigo11.png");
+}
+
+#inimigo2 {
+  width: 144px;
+  height: 128px;
+  position: absolute;
+  left: 860px;
+  top: 480px;
+  background-image: url("../assets/imgs/inimigo22.png");
+}
+
+#amigo {
+  width: 44px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 550px;
+  background-image: url("../assets/imgs/amigo2.png");
+}
+
+#inicio {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 200px;
+  background-color: #63b3e9;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: forestgreen;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#disparo {
+  width: 60px;
+  height: 15px;
+  position: absolute;
+  background-image: url("../assets/imgs/disparo2.png");
+}
+
+#explosao1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/imgs/explosao2.png");
+}
+
+#explosao2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/imgs/explosao2.png");
+}
+
+#explosao3 {
+  width: 44px;
+  height: 60px;
+  position: absolute;
+}
+
+.animaJogador {
+  background-image: url("../assets/imgs/helicoptero2.png");
+  animation: play 0.06s steps(2) infinite;
+}
+
+.animaInimigo1 {
+  background-image: url("../assets/imgs/inimigo11.png");
+  animation: play1 0.06s steps(2) infinite;
+}
+
+.animaAmigo {
+  background-image: url("../assets/imgs/amigo22.png");
+  animation: play2 0.6s steps(6) infinite;
+}
+
+.animaExplosao {
+  background-image: url("../assets/imgs/explosao2.png");
+  animation: play3 1s steps(12) infinite;
+}
+
+.animaAmigoMorte {
+  background-image: url("../assets/imgs/amigo-morte.png");
+  animation: play4 0.6s steps(6) infinite;
+}
+
+/* helicóptero */
+@keyframes play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -400px;
+  }
+}
+
+/* inimigo 1 */
+@keyframes play1 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -330px;
+  }
+}
+
+/* amigo */
+@keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -264px;
+  }
+}
+
+/* explosão */
+@keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -1200px;
+  }
+}
+
+/* amigo morte */
+@keyframes play4 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -258px;
+  }
+}
+
+#placar1 {
+  width: 450px;
+  height: 50px;
+  position: absolute;
+  left: 5px;
+  top: 620px;
+}
+
+#energia {
+  width: 140px;
+  height: 38px;
+  position: absolute;
+  left: 886px;
+  top: 33px;
+}
+
+h2,
+h3,
+p {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #06201b;
+}
+
+#fim {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 200px;
+  background-color: #63b3e9;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}

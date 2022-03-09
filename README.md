@@ -16,3 +16,4 @@
 14. Orientação a Objetos - JavaScript
 15. Map, Filter e Reduce - JavaScript
 16. Manipulando a D.O.M com JavaScript
+17. Construindo 1º Jogo de Nave - HTML | CSS | JavaScript
