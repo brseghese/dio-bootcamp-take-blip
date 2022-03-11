@@ -1,0 +1,45 @@
+Command Line - Operações Básicas - Terminal MySql
+
+show databases; -- exibi todos os databases
+
+use dio_mysql; -- usar/entrar em um database que está listado
+
+show tables; -- exibi as tabelas no database
+
+CREATE TABLE cursos (id_curso INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome varchar(30));
+
+INSERT INTO cursos (nome) VALUES ('mysql');
+INSERT INTO cursos (nome) VALUES ('HTML');
+INSERT INTO cursos (nome) VALUES ('CSS');
+
+SELECT * FROM cursos;
+
+UPDATE cursos SET nome = 'HTML5' WHERE id_curso = 2;
+
+SELECT * FROM cursos;
+
+INSERT INTO cursos (nome) VALUES ('Economia');
+
+DELETE FROM cursos WHERE nome = 'Economia';
+
+ALTER TABLE cursos ADD carga_horaria INT(2);
+
+SELECT * FROM cursos;
+
+UPDATE cursos SET carga_horaria = 20;
+
+UPDATE cursos SET carga_horaria = 40 WHERE id_curso = 2;
+
+SELECT * FROM cursos;
+
+Banco Test
+
+DROP TABLE usuarios;
+
+DROP DATABASE test;
+
+SHOW databases;
+
+
+
+
