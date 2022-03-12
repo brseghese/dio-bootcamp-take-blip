@@ -17,4 +17,4 @@
 15. Map, Filter e Reduce - JavaScript
 16. Manipulando a D.O.M com JavaScript
 17. Construindo 1º Jogo de Nave - HTML | CSS | JavaScript
-18. MySql - Primeiras Tabelas
+18. MySql - Tabelas | Relacionamentos | Consultas

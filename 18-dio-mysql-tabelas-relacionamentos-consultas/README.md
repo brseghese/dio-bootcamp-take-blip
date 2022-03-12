@@ -1,6 +1,6 @@
 # MySql - Queries SQL 🏛
 
-- Criar tabela
+- Criar tabelas
 - Inserir dados
 - Selecionar dados
 - Atualizar dados
@@ -8,3 +8,4 @@
 - Ordenar dados
 - Contar dados
 - Relacionar tabelas
+- Consultar tabelas
